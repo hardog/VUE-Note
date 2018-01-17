@@ -11,7 +11,7 @@
 - `MacroTask`主要通过`setImmediate`、`MessageChannel`、`setTimeout`实现，优先推荐使用setImmediate实现，但是该函数仅在IE浏览器可用。
 - `MicroTask`往往具有更高的优先级
 
-### 全部使用`MicroTask`或者`MacroTask`会有什么问题?
+### 仅使用`MicroTask`或者`MacroTask`会有什么问题?
 
 如果只使用`MicroTask`，那么在一系列按顺序执行的事件或者冒泡事件中可能触发task，造成不可预期的行为。如果只使用`MacroTask`那么当UI即将重绘时状态改变了，可能造成UI无法及时更新。
 
