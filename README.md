@@ -1,3 +1,3 @@
-# vue-note
+# VUE-Note
 
 
