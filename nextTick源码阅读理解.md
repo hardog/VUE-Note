@@ -21,8 +21,8 @@
 
 ### setTimeout, setImmediate, MessageChannel, Promise
 
-`MicroTask`: process.nextTick, Promise, Object.observe
-`MacroTask`: setTimeout, setImmediate, setInterval, IO
+- `MicroTask`: process.nextTick, Promise, Object.observe
+- `MacroTask`: setTimeout, setImmediate, setInterval, IO
 
 
 ### vm.$nextTick 与 Vue.nextTick 区别，即全局与局部的区别?
