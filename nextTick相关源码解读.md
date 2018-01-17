@@ -1,9 +1,9 @@
-```
-[VUE]: 代表源码根目录详见: [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
-nextTick源码文件位置: [VUE/src/core/util/next-tick.js](https://github.com/vuejs/vue/src/core/util/next-tick.js)
-实例方法挂载位置: [VUE/src/core/global-api/index.js](https://github.com/vuejs/vue/src/core/global-api/index.js)
-全局方法挂载位置: [VUE/src/core/instance/render.js](https://github.com/vuejs/vue/src/instance/render.js)
-```
+
+- [VUE]: 代表源码根目录详见: [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
+- nextTick源码文件位置: [VUE/src/core/util/next-tick.js](https://github.com/vuejs/vue/src/core/util/next-tick.js)
+- 实例方法挂载位置: [VUE/src/core/global-api/index.js](https://github.com/vuejs/vue/src/core/global-api/index.js)
+- 全局方法挂载位置: [VUE/src/core/instance/render.js](https://github.com/vuejs/vue/src/instance/render.js)
+
 
 ## 两个核心概念`MicroTask`&`MacroTask`
 
